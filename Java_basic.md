@@ -12,7 +12,7 @@
 
 4.对于byte/short/char三种类型来说，如果右侧赋值的数值没有超过范围，那么javac编译器将会自动隐含地为我们补上一个（byte)(short)(char);
 
-![](C:\Users\Liang Boming\Downloads\Untitled Diagram.png)
+![](C:/Users/Liang Boming/Downloads/Untitled Diagram.png)
 
 5.在给变量进行赋值的时候，如果右侧的表达式当中全是常量，没有任何变量，那么编译器javac将会直接将若干的常量表达式计算的结果。例：short  result= 5  + 8;编译得到的文件相当于short result =13,这被称为“编译器的常量有优化”。
 
@@ -20,7 +20,7 @@
 
 ## 数组
 
-- ![](C:\Users\Liang Boming\Downloads\Untitled Diagram (2).png)
+- ![](https://raw.githubusercontent.com/frank-liang-lbm/CloudIMG/main/Untitled%20Diagram%20(2).png)
 - 直接打印数组名称，得到的是数组对应的内存地址哈希值；
 - 静态初始化其实也有默认值，只不过系统自动马上将默认值替换成了大括号当中的具体数值；
 
@@ -78,7 +78,7 @@
 ### 重载（Overload)
 
 - 概念：多个方法的名称一样，参数列表不同。编译器用各个方法首部中的参数类型与特定方法调用中所使用的值进行匹配，来选出正确的方法；只需要记住唯一一个方法名称，就可以实现多个功能；
-- ![](C:\Users\Liang Boming\Downloads\Untitled Diagram (1).png)
+- ![](https://raw.githubusercontent.com/frank-liang-lbm/CloudIMG/main/20210505211327.png)
 
 
 
@@ -303,7 +303,7 @@ String str = "Hello";//直接写上双引号就是字符对象
 
 ### 字符串常量池
 
-![](C:\Users\Liang Boming\Pictures\Screenshots\屏幕截图(68).png)
+![](https://raw.githubusercontent.com/frank-liang-lbm/CloudIMG/main/20210505211055.png)
 
 程序当中直接写上的双引号字符串，就在字符串常量池中。
 
