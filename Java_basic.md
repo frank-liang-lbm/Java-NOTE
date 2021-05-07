@@ -12,7 +12,7 @@
 
 4.对于byte/short/char三种类型来说，如果右侧赋值的数值没有超过范围，那么javac编译器将会自动隐含地为我们补上一个（byte)(short)(char);
 
-![](C:/Users/Liang Boming/Downloads/Untitled Diagram.png)
+![](https://raw.githubusercontent.com/frank-liang-lbm/CloudIMG/main/20210507110958.png)
 
 5.在给变量进行赋值的时候，如果右侧的表达式当中全是常量，没有任何变量，那么编译器javac将会直接将若干的常量表达式计算的结果。例：short  result= 5  + 8;编译得到的文件相当于short result =13,这被称为“编译器的常量有优化”。
 
@@ -255,7 +255,7 @@ nextInt(3)是左闭右开区间，取值为0~2，取不到3；
 - public E remove(int index)：从集合当中删除元素，参数是索引编号，返回值就是被删除掉的元素。
 - public int size()：获取集合的尺寸长度，返回值是集合中包含的元素个数。
 
-####存储基本类型
+#### 存储基本类型
 
 如果希望向集合ArrayList当中存储基本数据类型，必须使用基本类型对应的“包装类”。
 
@@ -275,7 +275,16 @@ nextInt(3)是左闭右开区间，取值为0~2，取不到3；
 从JDK1.5+开始，支持自动装箱和自动拆箱。
 
 - 自动装箱：基本类型 --> 包装类型
+
 - 自动拆箱：包装类型 --> 基本类型
+
+  ````Java
+  Stack<Integer> stack = new Stack<Integer>;
+  stack.push(17);//int->Integer
+  int i = stack.pop();//Interger->int
+  ````
+
+  
 
 ## 字符串
 
