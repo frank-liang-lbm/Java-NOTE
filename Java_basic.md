@@ -108,7 +108,7 @@
 
 一个数组的内存图实例：
 
-![](C:\Users\Liang Boming\Pictures\Screenshots\屏幕截图(66).png)
+![](https://raw.githubusercontent.com/frank-liang-lbm/CloudIMG/main/20210507115921.png)
 
 ## 面向对象
 
@@ -151,7 +151,7 @@ public class Student{
 
 #### 一个对象的内存图
 
-![](C:\Users\Liang Boming\Pictures\Screenshots\屏幕截图(67).png)
+![](https://raw.githubusercontent.com/frank-liang-lbm/CloudIMG/main/20210507115942.png)
 
 黑×代表出栈；
 
